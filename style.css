@@ -1,0 +1,209 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.modern-gallery{
+  position: relative;
+  display: flex;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+.modern-gallery .bg-dark{
+  position: relative;
+  background: #000;
+  min-height: 700px;
+  min-width: 370px;
+}
+
+.modern-gallery-bg{
+  position: relative;
+  background-image: url("./assets/desktop/image-hero@2x.jpg");
+  min-height: 700px;
+  min-width:650px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.modern-gallery-h1{
+  position: absolute;
+  font-family: 'Big Shoulders Display';
+  z-index: 1;
+  top: 140px;
+  left: 260px;
+  width: 250px;
+  height: 96px;
+  font-size: 3rem;
+  color: white;
+  letter-spacing: 1px;
+}
+
+.modern-gallery-route {
+  position: absolute;
+  top:150px;
+  left: 740px;
+}
+
+.modern-gallery-p {
+  width: 300px;
+  color:#444444;
+  font-family: 'Outfit';
+  font-size: medium;
+  letter-spacing: 1px;
+}
+
+.modern-gallery-button{
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.modern-gallery-button button{
+  display: inline-block;
+  padding: 5px;
+  width: 200px;
+  height: 30px;
+  border-radius: 0ch;
+  border:none;
+  background: black;
+}
+
+.modern-gallery-button button a{
+  color: white;
+}
+
+.modern-gallery-button div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  background:#D5966C;
+  color: white;
+}
+
+.modern-gallery-route:hover .modern-gallery-button div{
+  background-color: black;
+}
+.modern-gallery-route:hover .modern-gallery-button button{
+  background-color: #D5966C;
+}
+
+.day-gallery{
+  padding-top: 84px;
+  display: flex;
+  height: 500px;
+  width: 80%;
+  margin: 0 auto;
+}
+.day-gallery-info{
+  width: 40%;
+  padding: 3rem 3rem 3rem 0;
+}
+.day-gallery-image{
+  width: 60%;
+}
+.day-gallery-info h1{
+  width: 400px;
+  margin-bottom: 2rem;
+  font-size: 3rem;
+  font-family: 'Big Shoulders Display';
+}
+.day-gallery-info p {
+  width: 400px;
+  color:#444444;
+  font-family: 'Outfit';
+  font-size: medium;
+  letter-spacing: 1px;
+}
+
+.more-day-gallery{
+  padding-top: 32px;
+  width: 80%;
+  height: 630px;
+  margin: 0 auto;
+  display:flex;
+  gap: 10px;
+}
+
+.more-day-gallery-left{
+  width: 60%;
+  height: 100%;
+  background-image: url("./assets/desktop/image-grid-2@2x.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.more-day-gallery-right{
+  width: 40%;
+  display: grid;
+  gap: 10px;
+}
+
+.more-day-gallery-right-image{
+  height: 294px;
+  background-size: cover;
+  width: 100%;
+  background-image: url("assets/desktop/image-grid-3@2x.jpg");
+}
+
+.more-day-gallery-right-info{
+  width: 100%;
+  background: #000;
+  height: 294px;
+  padding: 2rem;
+}
+
+.more-day-gallery-right-info h1 {
+  color:white;
+}
+.more-day-gallery-right-info p{
+  margin-top: 1rem;
+  color:white;
+}
+
+.footer{
+  margin-top: 3rem;
+  width: 100%;
+  height: 175px;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.footer h1{
+  width: 300px;
+  font-size: 2rem;
+  font-family: 'Big Shoulders Display';
+  color: white;
+}
+.footer p {
+  color:#444444;
+  width: 400px;
+  font-family: 'Outfit';
+  font-size: medium;
+  letter-spacing: 1px;
+}
+
+.icons{
+  display: flex;
+  gap:14px;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+}
